@@ -1,0 +1,8 @@
+https://github.com/nextcloud/all-in-one/discussions/596#discussioncomment-10100355
+
+
+////////////////
+To reset the backup location you just have run this command and the "Reset backup location" button will show up in the AIO Interface
+
+sudo docker exec nextcloud-aio-mastercontainer rm /mnt/docker-aio-config/data/borg.config
+////////////////
